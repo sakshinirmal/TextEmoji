@@ -1,6 +1,5 @@
-var clutter = "";
-
 function encryption(){
+    var clutter = "";
     document.querySelector("#encrypt-btn").addEventListener("click",function(){
         var input = document.getElementById("textmsg").value
         console.log(input);
